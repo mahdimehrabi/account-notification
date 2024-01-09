@@ -12,7 +12,7 @@ The best way possible for implementing connection between microservices
 for implementing event driven 
 scenarios like the one that we have for account transfer notification
 is using an event streaming platforms like Kafka, 
-but I decided to show my golang skills by implementing it purely on socket, so we have more things to implement and more
+but I decided to show my golang skills (especially for parallell|concurent solutions) by implementing it purely on socket, by implementing it purely on socket I have more things to implement and more
 challenges and problems to solve. 
 
 ## How to setup
