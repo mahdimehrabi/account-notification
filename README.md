@@ -60,7 +60,7 @@ Failed requests: 0
 Benchmark: 26.301355297s 
 ```
 
-you can see results by going to bash of the notification and cd to the logs directory
+you can see saved notifications by going to bash of the notification and cd to the logs directory
 ```docker compose exec notification bash```
 ```
 cd /app/logs
