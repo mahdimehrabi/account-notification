@@ -47,8 +47,8 @@ first of all please see logs to better understand how it works
 docker compose logs -f 
 ```
 
-you can get benchmark using benchmark tool that I developed for you -n options is the
-count of transactions the benchmark tool will create accounts automatically for you
+you can get benchmark using benchmark tool that I developed for you -n option is the
+count of transactions , the benchmark tool will create accounts automatically for you
 ```
 go run ./benchmark/main.go -n 10000
 ```
