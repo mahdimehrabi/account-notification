@@ -4,7 +4,7 @@
 I implemented the project on microservice architecture, I decided to consider separate services
 for account and notification.<br>
 ![design.png](design.png)
-## Microservices Architecture 
+## Service's Architecture 
 ![architecture.png](https://github.com/mahdimehrabi/account-notification/blob/main/architecture.png)
 
 ### Why socket 
