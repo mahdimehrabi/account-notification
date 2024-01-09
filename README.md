@@ -5,6 +5,7 @@ I implemented the project on microservice architecture, I decided to consider se
 for account and notification.<br>
 ![design.png](design.png)
 ## Service's Architecture 
+Notification and account services architecture is Clean Architecture
 ![architecture.png](https://github.com/mahdimehrabi/account-notification/blob/main/architecture.png)
 
 ### Why socket 
