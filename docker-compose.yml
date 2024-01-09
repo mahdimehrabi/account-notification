@@ -1,0 +1,21 @@
+version: '2'
+services:
+  redis:
+    image: redis:7.2.1
+    network_mode: host
+  notification:
+    build:
+      context: notification
+      dockerfile: ./Dockerfile
+    env_file: ./notification/.env
+    network_mode: host
+    depends_on:
+      - redis
+  account:
+    build:
+      context: account
+      dockerfile: ./Dockerfile
+    env_file: ./account/.env
+    depends_on:
+      - redis
+    network_mode: host

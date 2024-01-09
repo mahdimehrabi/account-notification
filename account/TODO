@@ -1,0 +1,75 @@
+### Technical Test Specification
+
+#### Project Overview:
+Develop a concise banking application using Golang, emphasizing Golang concurrency, channels, and eventing.
+The primary functionality should involve concurrent fund transfers between accounts, and after each transaction,
+notify the related accounts. Additionally, implement a mechanism to log these notifications within a file specific to each account.
+
+#### Key Features:
+
+1. Account Management:
+   - Implement a basic account structure with an account ID and balance.
+   - Support the creation of multiple accounts.
+
+2. Concurrent Fund Transfer:
+   - Utilize Goroutines for concurrent fund transfers between accounts.
+   - Implement a channel-based mechanism for transaction coordination and communication.
+
+3. Eventing:
+   - After each fund transfer, trigger an event to notify the related accounts.
+   - Implement a mechanism to capture these notifications for further processing.
+
+4. Notification Logging:
+   - Write a log file for each account to capture transaction-related notifications.
+   - Append new notifications to the existing log for each account.
+
+5. Concurrency and Safety:
+   - Ensure safe concurrent fund transfers without race conditions or conflicts.
+   - Demonstrate the use of locks, mutexes, or any appropriate concurrency control mechanism.
+
+6. Database Integration (Optional):
+   - Optionally, integrate a simple in-memory database for account storage.
+   - Focus on concurrent read and write operations.
+
+7. ReSTful API (Optional):
+   - Optionally, design a minimal ReSTful API for initiating fund transfers.
+   - Include endpoints for transferring funds between accounts.
+
+8. Automated Tests:
+   - Write unit tests to validate the concurrent fund transfer functionality.
+   - Ensure that concurrent transactions are processed accurately and safely.
+
+#### Evaluation Criteria:
+
+- Concurrency, Channels, and Eventing:
+  - Assess the implementation of concurrent fund transfers, channels, and event triggering.
+  - Evaluate the effectiveness of the eventing mechanism for notifying related accounts.
+
+- Golang Proficiency:
+  - Evaluate the code structure, adherence to Golang best practices, and use of language features.
+
+- Notification Logging:
+  - Assess the implementation of notification logging within separate files for each account.
+
+- Database Integration (Optional):
+  - If implemented, assess the integration with an in-memory database and concurrent data access.
+
+- ReSTful API (Optional):
+  - If implemented, assess the design and functionality of the API.
+
+- Automated Testing:
+  - Review the coverage and effectiveness of automated tests, especially regarding concurrent scenarios.
+
+#### Submission Guidelines:
+
+1. Repository:
+   - Create a GitHub repository for the project.
+
+2. Documentation:
+   - Provide clear documentation on how to run the application and execute tests.
+
+3. Readme:
+   - Include a well-structured Readme with project overview, setup instructions, and any additional notes.
+
+4. Submission Deadline:
+   - Specify the deadline for submitting the test.
