@@ -5,7 +5,7 @@ I implemented the project on microservice architecture, I decided to consider se
 for account and notification.<br>
 ![design.png](design.png)
 ## Microservices Architecture 
-![architecture.png](..%2F..%2FPictures%2Farchitecture.png)
+![architecture.png](https://github.com/mahdimehrabi/account-notification/blob/main/architecture.png)
 
 ### Why socket 
 The best way possible for implementing connection between microservices
