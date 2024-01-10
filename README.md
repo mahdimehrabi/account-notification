@@ -17,6 +17,11 @@ but I decided to show my golang skills (especially for parallell|concurent solut
 challenges and problems to solve. 
 
 ## How to setup
+please copy env.example in both account and notification directories 
+```
+cp env.example .env
+```
+
 run in notification and account directories 
 ```
 go mod vendor 
@@ -27,7 +32,7 @@ run containers by docker compose
 docker compose up -d
 ```
 
-send http requests
+#### REST endpoints
 
 list accounts
 ```
